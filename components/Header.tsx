@@ -6,10 +6,10 @@ interface HeaderProps {
 }
 
 const links: LinkDescription[] = [
-	{  name: 'start', link: '/'},
-	{  name: 'projects', link: '/projects'},
-	{  name: 'about me', link: '/about'},
-	{  name: 'contact', link: '/contact'}
+	{  name: 'start', link: '/', id: 'id-link-1' },
+	{  name: 'projects', link: '/projects', id: 'id-link-2' },
+	{  name: 'about me', link: '/about', id: 'id-link-3' },
+	{  name: 'contact', link: '/contact', id: 'id-link-4' }
 ]
 
 export const Header: React.FC<HeaderProps> = ({ className }) => {
