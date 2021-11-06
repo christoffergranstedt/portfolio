@@ -25,7 +25,7 @@ export default function AboutMePage ({ aboutMe, languageSkills, javaScriptSkills
   return (
     <LayoutHeader headTitle="Christoffer Granstedt - About" headDescription="Information about Christoffer Granstedt, his technical skills and education.">
       <div className="mx-auto divide-y divide-gray-600 divide-opacity-25 pt-4 px-2 xl:w-3/4 text-xs sm:text-base">
-        <h1 className="text-3xl sm:text-5xl text-black mb-8">about me</h1>
+        <h1 className="text-3xl sm:text-5xl text-black mb-8 sm:mb-2">about me</h1>
         <div className="lg:flex lg:flex-wrap mx-auto text-center">
           <div className="lg:w-3/4 mb-4 my-2 lg:self-center">
             <p className="text-left" dangerouslySetInnerHTML={{ __html: aboutMe ? aboutMe.content : '' }}/>
