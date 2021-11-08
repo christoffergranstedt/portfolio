@@ -14,7 +14,7 @@ export default function ProjectsPage ({ projects }: ProjectsProps) {
       <div className="mx-auto divide-y divide-indigo-600 divide-opacity-25 pt-4 px-2 text-xs sm:text-base">
         <h1 className="text-3xl sm:text-5xl text-black mb-2 sm:mb-8">projects</h1>
         {projects.map(project => {
-          return <Card className="my-4" key={project.id}><ProjectInfo key={project.id} project={project}/></Card>
+          return <Card className="my-6" key={project.id}><ProjectInfo key={project.id} project={project}/></Card>
         })}
       </div>
     </LayoutHeader>

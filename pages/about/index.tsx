@@ -27,7 +27,7 @@ export default function AboutMePage ({ aboutMe, languageSkills, javaScriptSkills
       <div className="mx-auto divide-y divide-gray-600 divide-opacity-25 pt-4 px-2 xl:w-3/4 text-xs sm:text-base">
         <h1 className="text-3xl sm:text-5xl text-black mb-2 sm:mb-8">about me</h1>
         <div className="lg:flex lg:flex-wrap mx-auto text-center">
-          <div className="lg:w-3/4 mb-4 my-2 lg:self-center">
+          <div className="lg:w-3/4 mb-6 my-2 lg:self-center">
             <p className="text-left" dangerouslySetInnerHTML={{ __html: aboutMe ? aboutMe.content : '' }}/>
           </div>
           <div className="w-36 h-36 sm:w-44 sm:h-44 lg:h-64 lg:w-64 relative inline-block">
@@ -36,28 +36,28 @@ export default function AboutMePage ({ aboutMe, languageSkills, javaScriptSkills
         </div>
         <div className="my-12">
           <h2 className="text-xl sm:text-3xl text-black my-4 w-full">skills</h2>
-          <Card className="my-4">
+          <Card className="my-6">
             <ItemsOverview title="Programming languages" skills={languageSkills}/>
           </Card>
-          <Card className="my-4">
+          <Card className="my-6">
             <ItemsOverview title="JavaScript" skills={javaScriptSkills}/>
           </Card>
-          <Card className="my-4">
+          <Card className="my-6">
             <ItemsOverview title="Databases" skills={databaseSkills}/>
           </Card>
-          <Card className="my-4">
+          <Card className="my-6">
             <ItemsOverview title="CSS" skills={cssSkills}/>
           </Card>
-          <Card className="my-4">
+          <Card className="my-6">
             <ItemsOverview title="CMS" skills={cmsSkills}/>
           </Card>
-          <Card className="my-4">
+          <Card className="my-6">
             <ItemsOverview title="Other" skills={otherSkills}/>
           </Card>
         </div>
         <div className="mb-12 mt-12">
         <h2 className="text-xl sm:text-3xl text-black my-4 w-full">education</h2>
-          <Card className="my-4">
+          <Card className="my-6">
             <ItemsOverview educations={educations}/>
           </Card>
         </div>
