@@ -1,4 +1,4 @@
-name: testing-preview-page-cypress
+name: Testing Vercel Preview Page - Cypress
 on: [deployment_status]
 jobs:
   e2e:
