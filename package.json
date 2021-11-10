@@ -17,7 +17,6 @@
     "@react-spring/web": "^9.3.0",
     "autoprefixer": "^10.3.7",
     "cosmicjs": "^4.1.2",
-    "cypress": "^8.7.0",
     "next": "12.0.3",
     "postcss": "^8.3.11",
     "react": "17.0.2",
@@ -25,12 +24,14 @@
     "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.1",
     "@testing-library/dom": "^8.11.0",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.0.2",
     "@types/react": "17.0.34",
+    "cypress": "^8.7.0",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.3",
     "jest": "^27.3.1",
