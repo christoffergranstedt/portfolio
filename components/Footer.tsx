@@ -14,7 +14,6 @@ export const Footer: React.FC<FooterProps> = ({ className }) => {
 						<a className="mx-2 hover:text-secondary" href="mailto:christoffer.granstedt@outlook.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope}/></a>
 						<a className="mx-2 hover:text-secondary" href="https://www.linkedin.com/in/christoffer-granstedt-17437b88" target="_blank" rel="noreferrer"><i className="devicon-linkedin-plain"/></a>
 						<a className="mx-2 hover:text-secondary" href="https://github.com/ChristofferGranstedt" target="_blank" rel="noreferrer"><i className="devicon-github-original"/></a>
-						<a className="mx-2 hover:text-secondary" href="https://gitlab.com/christoffergranstedt" target="_blank" rel="noreferrer"><i className="devicon-gitlab-plain"/></a>	
 					</p>
 					<p className="flex-auto text-gray-400 text-sm">&copy; {new Date().getFullYear()} Christoffer Granstedt</p>
 				</div>
