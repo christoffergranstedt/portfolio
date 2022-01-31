@@ -14,7 +14,7 @@ export default function HomePage() {
 
   return (
 
-    <LayoutHeader headTitle="Christoffer Granstedt - Web Developer" headDescription="Christoffer Granstedts portfolio site of some of the projects hes been working on. Get information about Christoffer or contact him.">
+    <LayoutHeader headTitle="Christoffer Granstedt - Web Developer" headDescription="Christoffer Granstedts portfolio site of some of the projects he has been working on. Get information about Christoffer or contact him.">
       <div className="text-center h-full mx-auto sm:px-8 flex flex-wrap place-content-center p-2 lg:w-4/5">
         <div className="w-full sm:flex-1 sm:w-22 my-auto">
           <h1 className="tracking-tight font-black text-gray-600 text-5xl phone:text-6xl sm:text-7xl md:text-8xl xl:text-8xl 2xl:text-9xl">Hi, I&apos;m <br/><animated.span className="text-transparent bg-gradient-to-r bg-clip-text from-primary to-third" style={slowRender}>Christoffer</animated.span></h1>
