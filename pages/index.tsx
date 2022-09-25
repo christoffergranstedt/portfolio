@@ -14,11 +14,11 @@ export default function HomePage() {
 
   return (
 
-    <LayoutHeader headTitle="Christoffer Granstedt - Web Developer" headDescription="Christoffer Granstedts portfolio site of some of the projects he has been working on. Get information about Christoffer or contact him.">
+    <LayoutHeader headTitle="Christoffer Granstedt - Developer" headDescription="Christoffer Granstedts portfolio site of some of the projects he has been working on. Get information about Christoffer or contact him.">
       <div className="text-center h-full mx-auto sm:px-8 flex flex-wrap place-content-center p-2 lg:w-4/5">
         <div className="w-full sm:flex-1 sm:w-22 my-auto">
           <h1 className="tracking-tight font-black text-gray-600 text-5xl phone:text-6xl sm:text-7xl md:text-8xl xl:text-8xl 2xl:text-9xl">Hi, I&apos;m <br/><animated.span className="text-transparent bg-gradient-to-r bg-clip-text from-primary to-third" style={slowRender}>Christoffer</animated.span></h1>
-          <h2 className="text-md text-gray-600 phone:text-xl lg:text-2xl my-2 mb-4 md:mb-8">- a web developer living in Gothenburg in Sweden</h2>
+          <h2 className="text-md text-gray-600 phone:text-xl lg:text-2xl my-2 mb-4 md:mb-8">- a developer living in Gothenburg in Sweden</h2>
 
           <Link href="/projects" passHref><a className="py-2 px-4 rounded-lg bg-primary hover:bg-primaryHover text-white cursor-pointer text-xs md:text-base mx-2 inline-block">View projects</a></Link>
           <Link href="/contact" passHref><a className="py-2 px-4 rounded-lg bg-third hover:bg-thirdHover text-white cursor-pointer text-xs md:text-base mx-2 inline-block mt-2">See contact information</a></Link>
